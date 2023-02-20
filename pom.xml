@@ -22,12 +22,6 @@
         <java.version>17</java.version>
     </properties>
 
-    <!--  Adding SCM github(http)  -->
-    <scm>
-        <developerConnection>scm:git:https://github.com/HilmiBaskoparan/pet-clinic.git</developerConnection>
-        <tag>HEAD</tag>
-    </scm>
-
     <build>
         <plugins>
             <plugin>
@@ -55,4 +49,9 @@
         </plugins>
     </build>
 
+    <!--  Adding SCM github(http)  -->
+    <scm>
+        <developerConnection>scm:git:https://github.com/HilmiBaskoparan/pet-clinic.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
 </project>
